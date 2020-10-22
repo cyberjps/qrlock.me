@@ -23,5 +23,5 @@ define('__QRL_TMPL_DEF__',		'qrlock.default');
 // Служебная информация
 // Место для хранения изображений
 // Можно удалить, если не используется темплейт qrlock.modern.tpl.php или вообще темплейты.
-define('__DMN_HOST__',isset($_SERVER['HTTP_HOST'])?str_ireplace('www.','',$_SERVER['HTTP_HOST']):'localhost'); // Main domain
-define('_QR_IMG_HTML_URL_','http://img.'.__DMN_HOST__.'/');
+defined('__DMN_HOST__') or define('__DMN_HOST__',isset($_SERVER['HTTP_HOST'])?str_ireplace('www.','',$_SERVER['HTTP_HOST']):'localhost'); // Main domain
+defined('_QR_IMG_HTML_URL_') or define('_QR_IMG_HTML_URL_','http://img.'.__DMN_HOST__.'/');
