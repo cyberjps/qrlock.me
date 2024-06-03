@@ -9,9 +9,9 @@ require_once(__DIR__.'/../../jLIB.PHP/qrlock/qrlock.php');
 <html>
 <head>
 
-<title>An example of using the service qrlock.me</title>
-<meta name="description" content="An example of using the service qrlock.me." >            
-<meta name="keywords" content="qrlock.me">
+<title>An example of using the service qrlock.us</title>
+<meta name="description" content="An example of using the service qrlock.us." >            
+<meta name="keywords" content="qrlock.us">
 <meta name="Robots" content="All"> 
 <meta name="Language" content="English">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,7 +58,7 @@ require_once(__DIR__.'/../../jLIB.PHP/qrlock/qrlock.php');
 		это собственно имя файла темплейта, который необходимо использовать при отрисовке QR-кода. В текущей версии их два
 		qrlock.modern и qrlock.default (siimple). Используется БЕЗ указания расширения имени файла (.php).
 -->
-<?php ShowQRBlock(['content_id'=>'bla-bla-bla-1','urlmob'=>'http://qrlock.me/demo/10x.php'],'qrlock.modern'); ?>
+<?php ShowQRBlock(['content_id'=>'bla-bla-bla-1','urlmob'=>'http://qrlock.us/demo/10x.php'],'qrlock.modern'); ?>
 <!-- "Функция" PinBtnCls находится в файле qrlock.php. Она просто рисует красивую кнопку. Ее использование - необязательно. -->
   <a href="resetdemo.php" class="<?php e(PinBtnCls(1)); ?>">Reset demo</a>
   <a href="demo.simple.php" class="<?php e(PinBtnCls(1)); ?>">Simple demo</a>
