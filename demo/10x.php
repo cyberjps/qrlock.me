@@ -6,9 +6,9 @@ require_once(__DIR__.'/../../jLIB.PHP/qrlock/qrlock.php');
 <html>
 <head>
 
-<title>Thank you page :: qrlock.me</title>
-<meta name="description" content="Thank you page :: qrlock.me." >
-<meta name="keywords" content="qrlock.me">
+<title>Thank you page :: qrlock.us</title>
+<meta name="description" content="Thank you page :: qrlock.us." >
+<meta name="keywords" content="qrlock.us">
 <meta name="Robots" content="All"> 
 <meta name="Language" content="English">
 <meta name="viewport" content="width=device-width, initial-scale=1">
