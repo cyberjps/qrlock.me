@@ -6,9 +6,9 @@ require_once(__DIR__.'/../../jLIB.PHP/qrlock/qrlock.php');
 <html>
 <head>
 
-<title>An example of using the service qrlock.me</title>
-<meta name="description" content="An example of using the service qrlock.me." >            
-<meta name="keywords" content="qrlock.me">
+<title>An example of using the service qrlock.us</title>
+<meta name="description" content="An example of using the service qrlock.us." >            
+<meta name="keywords" content="qrlock.us">
 <meta name="Robots" content="All"> 
 <meta name="Language" content="English">
 <meta name="viewport" content="width=device-width, initial-scale=1">
