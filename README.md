@@ -1,10 +1,10 @@
-# qrlock.me
-QRLock.me - hide content via QR codes
+# qrlock.us
+qrlock.us - hide content via QR codes
 
-http://qrlock.me/	- Q&A
+http://qrlock.us/	- Q&A
 
-http://qrlock.me/doc/ - for Developers
+http://qrlock.us/doc/ - for Developers
 
-http://qrlock.me/demo/ - demo page
+http://qrlock.us/demo/ - demo page
 
 
