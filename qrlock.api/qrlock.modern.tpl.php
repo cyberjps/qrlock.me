@@ -11,13 +11,13 @@
 <script src="<?php e(__API_POINT__); ?>api.js"></script>
 <script>
 // Локальная часть скрипта, определяющая ллогику работы и дизайн сайта, который испольузет
-// сервис qrlock.me. Здесь расположены переменные и функции, которые может (но в большинстве
+// сервис qrlock.us. Здесь расположены переменные и функции, которые может (но в большинстве
 // случае это не обязательно и не требуется) мзменить ваш программист или дизайнер.
 // Переменные
 // ============================================================================================
 // Параметры, передаваемые в скрипт conector.php, могут быть очень разными, в примере их два
 // и описаны они в файле принимающего скрипта. Главный (но не обязательно единственный)
-// результат ответа этого скрипта - это токен, полученный с сервиса qrlock.me
+// результат ответа этого скрипта - это токен, полученный с сервиса qrlock.us
 // Наличие этих переменных здесь - ОБЯЗАТЕЛЬНО. Имена этих переменных не должны быть измененны.
 // Их значения импортируются из файла qrlock.cfg.php
 var json_params = <?php e(json_encode($params)); ?>;
@@ -27,7 +27,7 @@ var json_params = <?php e(json_encode($params)); ?>;
 var callback_point = '<?php e(__CB_POINT__); ?>';
 // Адрес conection point. Адрес скрипта connector.php, расположенного на ВАШЕМ сервере.
 // В этом файле определеляется логика получения вашего контента, которая скрыта от пользователя
-// (а так же и от сервиса qrlock.me) и выполняется на вашем сервере.
+// (а так же и от сервиса qrlock.us) и выполняется на вашем сервере.
 var connector_point = '<?php e(__CON_POINT__); ?>';
 // Сюда будет сохранен токен.
 var token = '';
@@ -90,11 +90,11 @@ $(document).ready(initqrlock);
 
 <div style="display: none;" id="qrlock" aria-hidden="true">
 <div class="jumbotron py-3" style="max-width: 740px; border-radius: 1rem;" id="qrlock1">
-<h2 class="text-center">Content protected by qrlock.me service.</h2>
+<h2 class="text-center">Content protected by qrlock.us service.</h2>
 <hr class="my-2">
 <div class="row">
  <div class="col" style="max-width: 230px">
-  <p><img id="imgcode" style="position:relative; top:0px" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width=200px height=230px class="mx-auto d-block" alt="qrlock.me"></p>
+  <p><img id="imgcode" style="position:relative; top:0px" src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width=200px height=230px class="mx-auto d-block" alt="qrlock.us"></p>
   <div id="pinbtn" style="width: 200px; position:relative; top:0px;">----</div>
   <!--<div class="pt-3 text-center">
   <div class="spinner-border text-info" role="status" id="spin">
